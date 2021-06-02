@@ -1,11 +1,6 @@
-# Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting
+# MADGCN: Multi Attention Dynamic Graph Convolution Network with A Cost Sensitive Learning for Fine-Grained TRaffic Accident Prediction
 
-![Diffusion Convolutional Recurrent Neural Network](figures/model_architecture.jpg "Model Architecture")
-
-This is a TensorFlow implementation of Diffusion Convolutional Recurrent Neural Network in the following paper: \
-Yaguang Li, Rose Yu, Cyrus Shahabi, Yan Liu, [Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting](https://arxiv.org/abs/1707.01926), ICLR 2018.
-
-The Pytorch implementaion of the model is available at [DCRNN-Pytorch](https://github.com/chnsh/DCRNN_PyTorch).
+![MADGCN architecture](figures/MADGCN.jpg "Model Architecture")
 
 ## Requirements
 - scipy>=0.19.0
@@ -14,6 +9,7 @@ The Pytorch implementaion of the model is available at [DCRNN-Pytorch](https://g
 - pyaml
 - statsmodels
 - tensorflow>=1.3.0
+- pytorch>=2.4
 
 
 Dependency can be installed using the following command:
@@ -22,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-The traffic data files for Los Angeles (METR-LA) and the Bay Area (PEMS-BAY), i.e., `metr-la.h5` and `pems-bay.h5`, are available at [Google Drive](https://drive.google.com/open?id=10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) or [Baidu Yun](https://pan.baidu.com/s/14Yy9isAIZYdU__OYEQGa_g), and should be
+The traffic data files for New York(NYC) and the Bay Area (PEMS-BAY), i.e., `NYC.zip` and `pems-bay.zip`, are available at [Google Drive](https://drive.google.com/open?id=10FOTa6HXPqX8Pf5WRoRwcFnW9BrNZEIX) or [Baidu Yun](https://pan.baidu.com/s/14Yy9isAIZYdU__OYEQGa_g), and should be
 put into the `data/` folder.
 The `*.h5` files store the data in `panads.DataFrame` using the `HDF5` file format. Here is an example:
 
