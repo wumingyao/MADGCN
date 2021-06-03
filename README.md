@@ -1,6 +1,6 @@
 # MADGCN: Multi Attention Dynamic Graph Convolution Network with A Cost Sensitive Learning for Fine-Grained TRaffic Accident Prediction
 
-![MADGCN architecture](figures/MADGCN.jpg "Model Architecture")
+![MADGCN architecture](./figures/MADGCN.jpg "Model Architecture")
 
 ## Requirements
 - scipy>=0.19.0
