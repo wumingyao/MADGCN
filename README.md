@@ -23,7 +23,7 @@ put into the `data/` folder.
 The `pems-bay.npz` files store the traffic data.While the `accident.npy` files store the accident data. 
 
 ### Metric for different horizons and datasets
-The following table summarizes the performance of DCRNN on two dataset with regards to different metrics and horizons (numbers are better than those reported in the paper due to bug fix in commit [2e4b8c8](https://github.com/liyaguang/DCRNN/commit/2e4b8c868fd410a1fb4a469f0995de6616115e03) on Oct 1, 2018).
+The following table summarizes the performance of MADGCN on two dataset with regards to different metrics.
 
 | Dataset  | Metric | 15min | 30min | 60min |
 |----------|--------|-------|-------|-------|
